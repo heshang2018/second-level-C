@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+	char cChar;
+	short int iShort;
+	int lint;
+	float fFloat = 70000;
+	
+	cChar = (char)fFloat;
+	iShort = (short)fFloat;
+	lint = (int)fFloat;
+
+	printf("%d\n",lint);
+	printf("%c\n", cChar);
+	printf("%ld\n", iShort);
+	printf("%f\n", fFloat);
+	
+
+
+	getchar();
+	return 0;
+	
+}
