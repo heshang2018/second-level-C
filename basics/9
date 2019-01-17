@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+	char cChar1, cChar2, cChar3, cChar4,cChar5;
+	cChar1 = 'H';
+	cChar2 = 'E';
+	cChar3 = 'L';
+	cChar4 = 'L';
+	cChar5 = 'O';
+	
+	putchar(cChar1);
+	putchar(cChar2);
+	putchar(cChar3);
+	putchar(cChar4);
+	putchar(cChar5);
+
+	getchar();
+	return 0;
+	
+}
