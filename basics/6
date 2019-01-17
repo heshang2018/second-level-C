@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+void AddOne()
+{
+	static line;
+	line = line + 1;
+	printf("%d", line);
+}
+
+int main()
+{
+	printf("第一次调用:");
+	AddOne();
+	printf("第二次调用:");
+	AddOne();
+	
+	getchar();
+	return 0;
+}
