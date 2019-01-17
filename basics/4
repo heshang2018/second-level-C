@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+	char cChar1;
+	char cChar2;
+	cChar1 = 'a';
+	cChar2 = 97;
+	
+	printf("%c\n", cChar1);
+	printf("%d\n", cChar1);
+	
+	getchar();
+	return 0;
+
+}
