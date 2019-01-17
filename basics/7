@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+	register int lint;
+	lint = 100;
+	printf("%d\n", lint);
+
+	getchar();
+	return 0;
+	
+}
