@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	char *Char = "lLOVECHINA";
+	
+	puts("lLOVECHINA!");
+	puts(Char);
+	Char= "Hello,World";
+	puts(Char);
+	
+	getch();
+	return 0;
+}
