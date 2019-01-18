@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+	int ilnt = 10;
+	char cChar = 'A';
+	float fFloat = 12.34f;
+	
+	printf("the int is:%d\n", ilnt);
+	printf("the char is:%f\n", fFloat);
+	printf("the stirng is %s\n", "i love you");
+	
+	getch();
+	return 0;
+}
