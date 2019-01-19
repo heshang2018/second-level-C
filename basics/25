@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main()
+{
+	int iMouth = 0, iDay = 0;
+	printf("enter the month you wang to know the days\n");
+	scanf_s("%d", &iMouth);
+	switch (iMouth)
+	{
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+		iDay = 1;
+		break;
+	default:
+		iDay = -1;
+		break;
+		
+	}
+	if (iDay == -1)
+		printf("there is a error with you enter\n");
+	else
+		printf("2010 %d has %d days\n", iMouth, iDay);
+
+	getch();
+	return 0;
+}
