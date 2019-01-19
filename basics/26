@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+	int age=1;
+	int num=0;
+	while (age <= 100)
+	{
+		num=num+age;
+		age++;
+	}
+	printf("%d", num);
+	getch();
+	return 0;
+
+	
+}
