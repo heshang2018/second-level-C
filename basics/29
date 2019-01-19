@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+	int iNumber=1;
+	int iSum = 0;
+	do
+	{
+		iSum = iSum + iNumber;
+		iNumber++;
+	} while (iNumber <= 100);
+	printf("iSum:%d", iSum);
+	getch();
+	return 0;
+}
