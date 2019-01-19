@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+	int i;
+	int num=0;
+	for (i = 0; i <=100; i++)
+	{
+		num = num + i;
+		
+	}
+	printf("%d", num);
+	getch();
+	return 0;
+}
