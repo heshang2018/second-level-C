@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+int main()
+{
+	int iDay = 0;
+	
+	printf("enter a day of week to get course:\n");
+	scanf_s(
+		"%d", &iDay);
+	
+	switch (iDay)
+	{
+	case 1:
+		printf("Have a meeting in the company\n");
+		break;
+	case 2:
+	case 3:
+	case 4:
+	case 5:
+		printf("Working with parthes\n");
+		break;
+	case 6:
+		printf("Go shopping with friends\n");
+		break;
+	case 7:
+		printf("At home familes\n");
+
+	default:
+		printf("error\n");
+		
+	}
+	getch();
+	return 0;
+	
+}
