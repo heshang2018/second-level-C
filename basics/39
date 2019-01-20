@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+	char*ArrayName[5];/*定义一个具有5个字符指针元素的数组*/
+	int index;
+	ArrayName[0]="WangJiasheng";
+	ArrayName[1]="LiuWen";
+	ArrayName[2]="SuYuqun";
+	ArrayName[3]="LeiYu";
+	ArrayName[4]="ZhangMeng";
+	for (index=0;index<5;index++)
+		{
+			printf("%s\n",ArrayName[index]);
+		}
+getch();
+return 0;
+
+}
