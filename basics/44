@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main()
+{
+	int a[3][5], i, j;
+	printf("please input:\n");
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 5; j++)
+		{
+			scanf_s("%d", a[i] + j);
+		}
+	}
+	printf("the arraty is:\n");
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 5; j++)
+		{
+			printf("%5d", *(a[i] + j));
+		}
+		printf("\n");
+	}
+	getch();
+	return 0;
+}
