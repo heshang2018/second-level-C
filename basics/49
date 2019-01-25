@@ -1,0 +1,16 @@
+#include<stdio.h>
+void ShowNumber(int iNumber);	
+int main()
+{
+	int iShowNumber;
+	printf("Whar Number do you wanna show?\n");
+	scanf_s("%d", &iShowNumber);
+	ShowNumber(iShowNumber);
+	getch();
+	return 0;
+}
+
+void ShowNumber(int iNumber)
+{
+	printf("You wanna to show the Number is:%d\n", iNumber);
+}
