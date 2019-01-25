@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int Function();
+int main()
+{
+	printf("this step is before the Function\n");
+	Function();
+	printf("this step is end of the Function\n");
+	getch();
+	return 0;
+}
+int Function()
+{
+	printf("this step is in the function\n");
+}
