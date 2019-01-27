@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+void CEO();
+void Manager();
+void AssistanManage();
+void Clerk();
+
+int main()
+{
+	CEO();
+	getch();
+	return 0;
+}
+
+void CEO()
+{
+	printf("The CEO's working is telling Manage\n");
+	Manager();
+}
+void Manager()
+{
+	printf("The Manager's working work is telling AssistantManager\n");
+	AssistanManage();
+}
+void AssistanManage()
+{
+	printf("The AssistantManager's work is telling Clerk\n");
+	Clerk();
+}
+void Clerk()
+{
+	printf("The Cler'k work is making it\n");
+}
