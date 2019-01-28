@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+	long i;
+	long *p;
+	printf("please input the number:\n");
+	scanf_s("%ld", &i);
+	p = &i;
+	printf("please input the number:\n%d", &*p);
+	getch();
+	return 0;
+}
