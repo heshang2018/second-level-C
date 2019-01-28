@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	int* p, q;
+	p = &q;
+	printf("please input:\n");
+	scanf_s("%d", p);
+	printf("the number is :\n");
+	printf("%d\n", q);
+	
+	getch();
+	return 0;
+}
