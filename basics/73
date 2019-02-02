@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main()
+{
+	int i;
+	char **p;
+	char *month[12] =
+	{
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December"
+	};
+	for (i = 0; i < 12; i++)
+	{
+		p = month +i;
+		printf("%s\n", *p);
+	}
+	getch();
+	return 0;
+}
