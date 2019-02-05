@@ -1,0 +1,21 @@
+#include<stdio.h>
+struct Student
+{
+	char cName[20];
+	int iNameber;
+	char cSex;
+	int iGrade;
+
+}student1 = { "SuYuQun", 12061212, 'W', 2 };
+
+int main()
+{
+	struct Student *pStruct;
+	pStruct = &student1;
+	printf("---the student's information----\n");
+	printf("Name:%s\n", (*pStruct).cName);
+	printf("Number:%d\n", (*pStruct).cSex);
+	printf("cSex:%c\n", (*pStruct).cSex);
+	printf("iGrade:%d\n", (*pStruct).iGrade);
+	getch();
+}
