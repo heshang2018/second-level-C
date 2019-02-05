@@ -1,0 +1,27 @@
+#include<stdio.h>
+struct Student
+{
+	char cName[20];
+	int iNumber;
+	char cSex;
+	int iGrade;
+}student[5] = { { "WangJiasheng", 12062212, 'M', 3 },
+{ "YuLongjiao", 12062213, 'W', 3 },
+{ "JiangXuehuan", 12062214, 'M', 3 },
+{ "ZhangMeng", 12062215, 'W', 3 },
+{ "HanLiang", 12062216, 'M', 3 } };/*定义数组并设置初始值*/
+
+
+int main()
+{
+	int i;
+	for (i = 0; i < 5; i++)
+	{
+		printf("No %d student:\n", i + 1);
+		printf("Name:%s Number:%d\n", student[i].cName, student[i].iNumber);
+		printf("Sex:%c,Grade:%d\n", student[i].cSex, student[i].iGrade);
+		
+		getch();
+		return 0;
+	}
+}
