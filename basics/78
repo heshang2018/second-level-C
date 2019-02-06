@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+union DataUnion
+{
+	int lint;
+	char cChar;
+};
+
+int main()
+{
+	union DataUnion Union = { 97 };
+	printf("ilnt %d\n", Union.lint);
+	printf("cChar %c\n", Union.cChar);
+	getch();
+	return 0;
+}
